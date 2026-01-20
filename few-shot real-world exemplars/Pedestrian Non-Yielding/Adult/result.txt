@@ -1,0 +1,8 @@
+GPT-4o PERCEPTION & PREDICTION:
+VISUAL_ANALYSIS: The pedestrian is on the curb, positioned at the edge and moving toward the road. The pedestrian appears to be actively entering the zebra crossing.
+
+KINEMATIC_ANALYSIS: The pedestrian's velocity components are ped_vx: -0.9771 m/s and ped_vy: 2.005 m/s. These values indicate a continuous speed. The distance between the pedestrian and the ego vehicle is decreasing, last recorded at 7.7705 meters, signifying the pedestrian's progression into the street.
+
+DECISION: Pedestrian Non-Yielding
+
+REASON: The pedestrian is actively moving across the road without deceleration. The kinematic data shows consistent speed, aligning with visual cues of entering the crossing, indicating an intention to cross ahead of the vehicle.

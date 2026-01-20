@@ -1,0 +1,8 @@
+GPT-4o PERCEPTION & PREDICTION:
+VISUAL_ANALYSIS: The pedestrian, a young girl located in the right-front area of the vehicle’s field of view, has moved off the curb and is actively progressing toward the roadway. Her body orientation and walking direction indicate a clear intent to cross, placing her on a direct interaction path with the ego vehicle.
+
+KINEMATIC_ANALYSIS: The pedestrian’s velocity components are ped_vx = -1.6737 m/s and ped_vy = -0.3481 m/s, indicating a sustained and purposeful motion across the vehicle’s projected trajectory. The current distance between the pedestrian and the ego vehicle is 6.3252 meters, which is relatively close and continues to decrease as the pedestrian advances.
+
+DECISION: Pedestrian Non-Yielding
+
+REASON: The pedestrian has initiated and maintained a crossing maneuver without signs of deceleration, hesitation, or yielding behavior. The consistent velocity profile and reducing spatial separation, combined with visual cues of active movement into the roadway, suggest a clear intention to cross ahead of the vehicle rather than yielding.

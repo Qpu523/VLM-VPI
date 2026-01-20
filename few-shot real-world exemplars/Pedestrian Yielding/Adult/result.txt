@@ -1,0 +1,8 @@
+GPT-4o PERCEPTION & PREDICTION:
+VISUAL_ANALYSIS: The pedestrian on the right sidewalk raises a hand, explicitly signaling the ego vehicle to proceed first. The pedestrian remains at the curb and does not show any immediate intention to step into the roadway, indicating an active yielding interaction with the vehicle.
+
+KINEMATIC_ANALYSIS: The pedestrian’s movement is limited and does not exhibit sustained forward progression into the lane. The current distance between the pedestrian and the ego vehicle is 8.3980 meters, and no rapid distance reduction or motion pattern indicative of an imminent conflict is observed.
+
+DECISION: Pedestrian Yielding
+
+REASON: The pedestrian’s explicit hand gesture communicates a yielding intent, which takes precedence in the decision process. Combined with the pedestrian’s curbside position and the absence of committed crossing motion, the pedestrian is assessed to be yielding the right-of-way to the vehicle.
