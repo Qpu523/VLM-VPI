@@ -1,9 +1,9 @@
 <div style="font-family: 'Times New Roman', Times, serif; font-size: 16px; color: #333;">
 
-<h1 align="center">LLM-Driver: A Vision–Language–Enhanced Multimodal Reasoning Framework for Vehicle Simulation</h1>
+<h1 align="center">VLM-VPI: A Vision–Language–Enhanced Multimodal Reasoning Framework for Vehicle Simulation</h1>
 
 <p>
-This repository hosts the implementation and evaluation of <strong>LLM-Driver</strong>, a closed-loop autonomous driving framework that integrates <strong>multimodal large language models (MLLMs)</strong> into the CARLA simulator. It addresses the fundamental challenge of pedestrian intent prediction and safety-critical control in urban environments by bridging the gap between geometric perception and semantic reasoning.
+This repository hosts the implementation and evaluation of <strong>VLM-VPI</strong>, a closed-loop autonomous driving framework that integrates <strong>multimodal large language models (MLLMs)</strong> into the CARLA simulator. It addresses the fundamental challenge of pedestrian intent prediction and safety-critical control in urban environments by bridging the gap between geometric perception and semantic reasoning.
 </p>
 
 <hr>
@@ -11,7 +11,7 @@ This repository hosts the implementation and evaluation of <strong>LLM-Driver</s
 <h2>🧠 Framework Overview</h2>
 
 <p>
-The <strong>LLM-Driver framework</strong> shifts autonomous vehicle decision-making from purely physics-based prediction to semantic reasoning in social space. The system features:
+The <strong>VLM-VPI framework</strong> shifts autonomous vehicle decision-making from purely physics-based prediction to semantic reasoning in social space. The system features:
 </p>
 
 <ul>
@@ -23,7 +23,7 @@ The <strong>LLM-Driver framework</strong> shifts autonomous vehicle decision-mak
 <p align="center">
   <img src="https://github.com/Qpu523/Drive_X/blob/43e0c10b93c5e2bc4d408a2b0e679c96b5707dce/Config/1.png" alt="Framework Architecture" width="800">
   <br>
-  <em>Figure 1: The LLM-Driver framework architecture operating in closed-loop mode within CARLA.</em>
+  <em>Figure 1: The VLM-VPI framework architecture operating in closed-loop mode within CARLA.</em>
 </p>
 
 <hr>
@@ -135,7 +135,7 @@ The <strong>LLM-Driver framework</strong> shifts autonomous vehicle decision-mak
 </table>
 
 <h3>Safety Analysis</h3>
-<p>The LLM-Driver significantly shifts the Time-to-Collision (TTC) distribution toward safer values.</p>
+<p>The VLM-VPI significantly shifts the Time-to-Collision (TTC) distribution toward safer values.</p>
 <ul>
     <li><strong>Conflict Reduction:</strong> Reduces extreme-risk interactions (TTC < 2.0s) by <strong>73%</strong> compared to the rule-based baseline.</li>
     <li><strong>Traffic Efficiency:</strong> Achieves a <strong>62% reduction</strong> in unnecessary braking events in yielding scenarios.</li>
@@ -148,12 +148,12 @@ The <strong>LLM-Driver framework</strong> shifts autonomous vehicle decision-mak
 </p>
 
 <h3>Control Dynamics</h3>
-<p>Unlike reactive baselines where TTC continuously degrades, LLM-Driver stabilizes TTC within the trigger zone through anticipatory intent recognition.</p>
+<p>Unlike reactive baselines where TTC continuously degrades, VLM-VPI stabilizes TTC within the trigger zone through anticipatory intent recognition.</p>
 
 <p align="center">
   <img src="https://github.com/Qpu523/Drive_X/blob/ba796376441ba06cd07ce6e870d3b8846cb48bd1/Config/555.png" alt="TTC Evolution" width="800">
   <br>
-  <em>Figure 5: Temporal TTC evolution comparing (a) Rule-based baseline and (b) LLM-Driver with few-shot reasoning.</em>
+  <em>Figure 5: Temporal TTC evolution comparing (a) Rule-based baseline and (b) VLM-VPI with few-shot reasoning.</em>
 </p>
 
 <hr>
