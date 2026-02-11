@@ -1,6 +1,6 @@
 <div style="font-family: 'Times New Roman', Times, serif; font-size: 16px; color: #333;">
 
-<h1 align="center">VLM-VPI: A Vision–Language–Enhanced Multimodal Reasoning Framework for Vehicle Simulation</h1>
+<h1 align="center">VLM-VPI: A Vision–Language Model for Improving Automated Vehicles–Pedestrian Interactions</h1>
 
 <p>
 This repository hosts the implementation and evaluation of <strong>VLM-VPI</strong>, a closed-loop autonomous driving framework that integrates <strong>multimodal large language models (MLLMs)</strong> into the CARLA simulator. It addresses the fundamental challenge of pedestrian intent prediction and safety-critical control in urban environments by bridging the gap between geometric perception and semantic reasoning.
