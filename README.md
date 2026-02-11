@@ -15,7 +15,7 @@ The <strong>VLM-VPI framework</strong> shifts autonomous vehicle decision-making
 </p>
 
 <ul>
-    <li><strong>Multimodal Reasoning Layer:</strong> Combines <strong>Vision-Language Models (Qwen3-VL)</strong> for visual scene description with <strong>Reasoning Models (GPT-o1)</strong> for intent inference.</li>
+    <li><strong>Multimodal Reasoning Layer:</strong> Combines <strong>Vision-Language Models (Qwen3-VL)</strong> for visual scene description with <strong>Reasoning Models (GPT-OSS 20B)</strong> for intent inference.</li>
     <li><strong>Few-Shot Learning:</strong> Leverages real-world behavioral exemplars (extracted from the PIE dataset) to ground reasoning in authentic human interactions.</li>
     <li><strong>Demographic-Adaptive Control:</strong> A tiered safety controller that adjusts braking margins based on pedestrian age groups (Child, Adult, Senior) to ensure equitable safety protection.</li>
 </ul>
@@ -44,7 +44,7 @@ The <strong>VLM-VPI framework</strong> shifts autonomous vehicle decision-making
     </li>
     <li><strong>Reasoning Core:</strong>
         <ul>
-            <li>The reasoning model (GPT-o1 20B) receives the scene description, kinematic logs, and <strong>few-shot real-world exemplars</strong>.</li>
+            <li>The reasoning model (GPT-OSS 20B) receives the scene description, kinematic logs, and <strong>few-shot real-world exemplars</strong>.</li>
             <li>It outputs a structured analysis including Visual Analysis, Kinematic Analysis, Decision, and Reasoning.</li>
         </ul>
     </li>
