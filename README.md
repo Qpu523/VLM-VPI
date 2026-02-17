@@ -183,12 +183,14 @@ The <strong>VLM-VPI framework</strong> shifts autonomous vehicle decision-making
 
 
 
+<hr>
 
+<h2>📈 Star History</h2>
 
+<p align="center">
+  <a href="https://star-history.com/#Qpu523/VLM-VPI&Date">
+    <img src="https://api.star-history.com/svg?repos=Qpu523/VLM-VPI&type=Date" alt="Star History Chart">
+  </a>
+</p>
 
-```
----
-## 📈 Star History
-
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Qpu523/VLM-VPI&type=Date)](https://star-history.com/#Qpu523/VLM-VPI&Date)
+</div>
